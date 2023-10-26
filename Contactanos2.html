@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Archivo.css">
+    <title>Contáctanos - Servicios de Análisis de Datos y Automatización</title>
+</head>
+<body class="mi-elemento">
+    <header>
+        <img src="Img/header3.jpg" alt="" class="imagen-header">
+        <h1 class="EncabezadoPrincipal">Contáctanos</h1>
+        <nav class="Indice">
+            <ul>
+                <li class="Navegacion"><a href="Inicio2.html">Inicio</a></li>
+                <li class="Navegacion"><a href="AcercaDeNosotros2.html">Acerca de nosotros</a></li>
+                <li class="Navegacion"><a href="Servicios2.html">Nuestros Servicios</a></li>
+                <li class="Navegacion"><a href="Contactanos2.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="centrar-contenido">
+            <h2 class="TituloPrincipal">¡Contáctanos!</h2>
+            <p class="parrafo1">Estamos aquí para responder a tus preguntas y atender tus consultas. Por favor, completa el siguiente formulario y nos pondremos en contacto contigo a la brevedad.</p>
+            <form action="procesar.php" method="POST">
+                <label class="labels" for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label class="labels" for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+        
+                <label class="labels" for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label class="labels" for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                <button class="buton" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2023 Servicios de Análisis de Datos y Automatización.</p>
+    </footer>
+</body>
+<script src="Contactanos.js"></script>
+</html>
